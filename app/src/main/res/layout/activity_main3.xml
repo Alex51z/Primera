@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="414dp"
+        android:text="c" />
+
+    <Button
+        android:id="@+id/ne"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="NE" />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="E" />
+
+    <Button
+        android:id="@+id/se"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="SE" />
+
+    <Button
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="S" />
+
+    <Button
+        android:id="@+id/so"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="SO" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="-110dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginRight="-275dp"
+        android:layout_marginBottom="531dp"
+        android:text="NO" />
+
+    <Button
+        android:id="@+id/O"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="O" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="143dp"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/n"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/c"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:text="N" />
+
+</RelativeLayout>
